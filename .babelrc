@@ -1,0 +1,34 @@
+{
+  "env": {
+    "es": {
+      "presets": [
+        ["@babel/preset-env", {
+          "loose": true,
+          "targets": {
+            "node": "current"
+          },
+          "modules": false
+        }]
+      ],
+      "plugins": [
+        ["module-resolver", {
+          "root": ["./src"]
+        }]
+      ]
+    },
+    "cjs": {
+      "presets": [
+        ["@babel/preset-env", {
+          "loose": true,
+          "modules": "commonjs"
+        }]
+      ],
+      "plugins": [
+        ["module-resolver", {
+          "root": ["./src"]
+        }]
+      ]
+    }
+  }
+}
+
