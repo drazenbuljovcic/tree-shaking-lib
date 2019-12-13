@@ -1,4 +1,4 @@
-export { default as Images } from './dependency/images';
-export { default as Containers } from './dependency/containers';
-export { default as Services } from './dependency/services';
-export { default as Networks } from './dependency/networks';
+export { default as Image } from './dependencies/image';
+export { default as Container } from './dependencies/container';
+export { default as Service } from './dependencies/service';
+export { default as Network } from './dependencies/network';
